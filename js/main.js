@@ -209,11 +209,11 @@
     * ------------------------------------------------------ */
     var clSlickSlider = function() {
 
-        $('.clients').slick({
+        $('.programs').slick({
             arrows: false,
             dots: true,
             infinite: true,
-            slidesToShow: 6,
+            slidesToShow: 5,
             slidesToScroll: 2,
             //autoplay: true,
             pauseOnFocus: false,
@@ -250,7 +250,7 @@
         });
 
         $('.testimonials').slick({
-            arrows: true,
+            arrows: false,
             dots: false,
             infinite: true,
             slidesToShow: 1,
