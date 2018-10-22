@@ -898,6 +898,100 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  *
  * ------------------------------------------------------------------- */
 
+ .designer-image {
+    margin-top: 4.2rem;
+    padding-top: 7.2rem;
+    text-align: center;
+    position: relative;
+}
+
+.designer-image::before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 550px;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.designer-image .designer {
+    margin: 0 10%;
+}
+
+.designer-image .designer p {
+    font-family: "lora-regular", serif;
+    font-size: 3rem;
+    line-height: 1.8;
+    color: #555555;
+    margin-bottom: 6rem;
+}
+
+.designer-image .designer__slide {
+    padding: 0 0 3rem 0;
+}
+
+.designer-image .designer__avatar {
+    height: 13.4rem;
+    width: 13.4rem;
+    border-radius: 50%;
+    margin: 0 auto 1.2rem auto;
+}
+
+.designer-image .designer__name, 
+.designer-image .designer__pos {
+    display: block;
+}
+
+.designer-image .designer__name {
+    font-family: "montserrat-semibold", sans-serif;
+    color: #000000;
+}
+
+.designer-image .designer__pos {
+    font-family: "montserrat-light", sans-serif;
+    font-size: 1.4rem;
+}
+
+.designer-image .designer .slick-arrow {
+    position: absolute;
+    top: 7.2rem;
+    width: 66px;
+    height: 66px;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 22px 15px;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+    z-index: 2;
+}
+
+.designer-image .designer .slick-prev {
+    left: -130px;
+    background-image: url("../images/left-arrow.png");
+}
+
+.designer-image .designer .slick-next {
+    right: -130px;
+    background-image: url("../images/right-arrow.png");
+}
+
+.designer-image .designer .slick-dots {
+    margin-top: -0.6px;
+}
 
 /* ------------------------------------------------------------------- 
  * ## alert box
@@ -2752,7 +2846,7 @@ html.no-csstransitions .home-content__main {
 .programs__slide {
     display: block;
     opacity: .55;
-    padding: 1.5rem 2.8rem;
+    padding: 1.5rem 5.8rem;
     -webkit-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
 }
