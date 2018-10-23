@@ -250,14 +250,15 @@
         });
 
         $('.testimonials').slick({
-            arrows: false,
+            arrows: true,
             dots: false,
             infinite: true,
             slidesToShow: 1,
             slidesToScroll: 1,
             adaptiveHeight: true,
+            autoplay: true,
             pauseOnFocus: false,
-            autoplaySpeed: 1500,
+            autoplaySpeed: 9500,
             responsive: [
                 {
                     breakpoint: 900,

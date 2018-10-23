@@ -847,8 +847,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-    background: #33a242;
-    border-color: #33a242;
+    background: #000;
+    border-color: #000;
 }
 
 
@@ -1327,7 +1327,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .display-2--light {
-    color: #FFFFFF;
+    color: #fff;
+}
+
+.display-2--brand {
+    color: #ECD8CC;
 }
 
 .subhead + .display-2 {
@@ -1346,7 +1350,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .subhead--dark {
-    color: #000000;
+    color: #000;
+}
+
+.subhead--light {
+    color: #fff;
 }
 
 
@@ -2595,7 +2603,7 @@ html.no-csstransitions .home-content__main {
 
 .s-works .intro-wrap {
     padding: 15rem 0 25.2rem;
-    background: #111111;
+    /* background: #111111; */
 }
 
 .works-content {
