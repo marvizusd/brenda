@@ -76,7 +76,7 @@ html, body {
 body {
     background: #fff;
     font-family: "lora-regular", serif;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     font-style: normal;
     font-weight: normal;
     line-height: 1.765;
@@ -937,8 +937,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .designer-image .designer__avatar {
-    height: 13.4rem;
-    width: 13.4rem;
+    height: 22.4rem;
+    width: 22.4rem;
     border-radius: 50%;
     margin: 0 auto 1.2rem auto;
 }
@@ -2312,7 +2312,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .about-desc {
-    font-size: 2.4rem;
+    font-size: 2rem;
     line-height: 1.75;
     text-align: center;
     max-width: 1024px;
